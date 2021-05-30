@@ -9,7 +9,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 
     const userSearch = search.value
-    const url = `http://localhost:3000/weather?address=${userSearch}`
+    const url = `/weather?address=${userSearch}`
 
     msgOne.textContent = 'Loading...'
     msgTwo.textContent = ''
